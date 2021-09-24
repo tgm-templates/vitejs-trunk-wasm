@@ -1,0 +1,22 @@
+{
+  "name": "vitejs-trunk-wasm",
+  "repository": "https://github.com/tgm-templates/vitejs-trunk-wasm",
+  "description": "Develop WebAssembly web App by Vite.js and Trunk",
+  "variables": [
+    {
+      "name": "appName",
+      "description": "App name"
+    },
+    {
+      "name": "author_name",
+      "description": "author's name"
+    },
+    {
+      "name": "author_email",
+      "description": "author's email"
+    }
+  ],
+  "files": [
+    "Cargo.toml", "package.json", "app/index.ts"
+  ]
+}
