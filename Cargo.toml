@@ -1,0 +1,13 @@
+[package]
+name = "@appName@"
+version = "0.1.0"
+description = "Wasm web app with Vite.js and Trunk"
+authors = ["@author_name@ <@author_email@>"]
+edition = "2018"
+license = "MIT"
+
+[dependencies]
+console_error_panic_hook = "0.1"
+web-sys = { version = "0.3", features = ["Window", "Document", "HtmlElement", "Node", "Text"] }
+wasm-bindgen = "0.2"
+wee_alloc = "0.4"
